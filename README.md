@@ -23,7 +23,7 @@ Ensure you have the required dependencies installed:
 npm install react tailwindcss daisyui
 ```
 
-After installing the dependencies, you need to initialize Tailwind CSS in your project:
+After installing the dependencies, you need to initialize Tailwind CSS in your project if you haven't already done so:
 
 ```bash
 npx tailwindcss init
