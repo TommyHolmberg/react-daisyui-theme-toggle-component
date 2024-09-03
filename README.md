@@ -23,6 +23,14 @@ Ensure you have the required dependencies installed:
 npm install react tailwindcss daisyui
 ```
 
+After installing the dependencies, you need to initialize Tailwind CSS in your project:
+
+```bash
+npx tailwindcss init
+```
+
+This command will generate a `tailwind.config.js` file in your project’s root directory, which you can then modify to include DaisyUI and customize your Tailwind CSS setup.
+
 ### Tailwind CSS Configuration
 
 In your `tailwind.config.js` file, ensure that DaisyUI is included in the plugins array, and the themes are enabled or customized as needed:
