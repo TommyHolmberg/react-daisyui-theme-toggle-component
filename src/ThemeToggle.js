@@ -21,7 +21,7 @@ function ThemeToggle({ className }) {
 
     const handleToggle = (event) => {
         const newTheme = event.target.checked ? 'dark' : 'light';
-        localStorage.setItem('theme', theme);
+        localStorage.setItem('theme', newTheme);
         setTheme(newTheme);
     };
 
